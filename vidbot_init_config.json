@@ -1,0 +1,172 @@
+{
+  "title": "remove highlights",
+  "steps": [
+    {
+      "type": "click",
+      "desc": "xmode",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/ Style",
+          "aria/[role=\"image\"]"
+        ],
+        [
+          "#sidebar > div li:nth-of-type(2) svg"
+        ],
+        [
+          "xpath///*[@id=\"style_tab_text_holder\"]/svg"
+        ],
+        [
+          "pierce/#sidebar > div li:nth-of-type(2) svg"
+        ]
+      ],
+      "offsetY": 25,
+      "offsetX": 27.078125
+    },
+    {
+      "type": "click",
+      "desc": "xmode",
+      "target": "main",
+      "selectors": [
+        "form > div:nth-of-type(1) label",
+        "xpath///*[@id={}]/div[1]/div/label",
+        "pierce/form > div:nth-of-type(1) label",
+        "text/Enable X Mode"
+      ],
+      "offsetX": -25,
+      "offsetY": 12.34375
+    },
+    {
+      "type": "click",
+      "desc": "text animation",
+      "target": "main",
+      "selectors": [
+        [
+          "#scene_transition_bottom_link path:nth-of-type(1)"
+        ],
+        [
+          "xpath///*[@id=\"scene_transition_bottom_link\"]/svg/g/path[1]"
+        ],
+        [
+          "pierce/#scene_transition_bottom_link path:nth-of-type(1)"
+        ]
+      ],
+      "offsetY": 24.375,
+      "offsetX": 24.703125
+    },
+    {
+      "type": "click",
+      "desc": "text animation",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/None"
+        ],
+        [
+          "#inlineRadio1"
+        ],
+        [
+          "xpath///*[@id=\"inlineRadio1\"]"
+        ],
+        [
+          "pierce/#inlineRadio1"
+        ]
+      ],
+      "offsetY": 3.5,
+      "offsetX": 7
+    },
+    {
+      "type": "click",
+      "desc": "text animation off",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Apply transition on all scenes"
+        ],
+        [
+          "#modal_choose_video_audio div:nth-of-type(3) button"
+        ],
+        [
+          "xpath///*[@id=\"modal_choose_results\"]/div/div/div/div/div[4]/div[3]/div/button"
+        ],
+        [
+          "pierce/#modal_choose_video_audio div:nth-of-type(3) button"
+        ],
+        [
+          "text/Apply transition"
+        ]
+      ],
+      "offsetY": 15.5,
+      "offsetX": 121.453125
+    },
+
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        "#subtitle_text_id",
+        "xpath///*[@id=\"subtitle_text_id\"]",
+        "pierce/#subtitle_text_id"
+      ],
+      "offsetX": 202.9146728515625,
+      "offsetY": 21.925567626953125
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Control"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "a"
+    },
+    {
+      "type": "keyUp",
+      "key": "a",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "Control",
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "desc": "highlight",
+      "target": "main",
+      "selectors": [
+        "div.video_toolbar a:nth-of-type(4) path:nth-of-type(2)",
+        "xpath///*[@id=\"borders_div\"]/div[1]/div/a[4]/svg/path[2]",
+        "pierce/div.video_toolbar a:nth-of-type(4) path:nth-of-type(2)"
+      ],
+      "offsetX": 15,
+      "offsetY": 15
+    },
+    {
+      "type": "click",
+      "desc": "highlight2",
+      "target": "main",
+      "selectors": [
+        "div.video_toolbar a:nth-of-type(4) path:nth-of-type(2)",
+        "xpath///*[@id=\"borders_div\"]/div[1]/div/a[4]/svg/path[2]",
+        "pierce/div.video_toolbar a:nth-of-type(4) path:nth-of-type(2)"
+      ],
+      "offsetX": 15,
+      "offsetY": 15
+    },
+    {
+      "type": "click",
+      "desc": "next",
+      "target": "main",
+      "selectors": [
+        "div.scroll_bottom path:nth-of-type(1)",
+        "xpath///*[@id=\"scroll_down_buttom\"]/svg/path[1]",
+        "pierce/div.scroll_bottom path:nth-of-type(1)"
+      ],
+      "offsetX": 11.703125,
+      "offsetY": 19.375
+    }
+
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "title": "remove highlights",
+  "steps": [
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        "#subtitle_text_id",
+        "xpath///*[@id=\"subtitle_text_id\"]",
+        "pierce/#subtitle_text_id"
+      ],
+      "offsetX": 202.9146728515625,
+      "offsetY": 21.925567626953125
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Control"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "a"
+    },
+    {
+      "type": "keyUp",
+      "key": "a",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "Control",
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "desc": "highlight",
+      "target": "main",
+      "selectors": [
+        "div.video_toolbar a:nth-of-type(4) path:nth-of-type(2)",
+        "xpath///*[@id=\"borders_div\"]/div[1]/div/a[4]/svg/path[2]",
+        "pierce/div.video_toolbar a:nth-of-type(4) path:nth-of-type(2)"
+      ],
+      "offsetX": 15,
+      "offsetY": 15
+    },
+    {
+      "type": "click",
+      "desc": "highlight2",
+      "target": "main",
+      "selectors": [
+        "div.video_toolbar a:nth-of-type(4) path:nth-of-type(2)",
+        "xpath///*[@id=\"borders_div\"]/div[1]/div/a[4]/svg/path[2]",
+        "pierce/div.video_toolbar a:nth-of-type(4) path:nth-of-type(2)"
+      ],
+      "offsetX": 15,
+      "offsetY": 15
+    },
+    {
+      "type": "click",
+      "desc": "next",
+      "target": "main",
+      "selectors": [
+        "div.scroll_bottom path:nth-of-type(1)",
+        "xpath///*[@id=\"scroll_down_buttom\"]/svg/path[1]",
+        "pierce/div.scroll_bottom path:nth-of-type(1)"
+      ],
+      "offsetX": 11.703125,
+      "offsetY": 19.375
+    }
+
+  ]
+}
