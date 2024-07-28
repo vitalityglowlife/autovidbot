@@ -1,0 +1,244 @@
+{
+  "title": "Recording 28/07/2024 at 21:29:01",
+  "steps": [
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Save & Continue"
+        ],
+        [
+          "button:nth-of-type(2)"
+        ],
+        [
+          "xpath///*[@id=\"save_scenes_form\"]/button[2]"
+        ],
+        [
+          "pierce/button:nth-of-type(2)"
+        ],
+        [
+          "text/Save & Continue"
+        ]
+      ],
+      "offsetY": 15.109375,
+      "offsetX": 70.015625,
+      "assertedEvents": [
+        {
+          "type": "navigation"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "#voice_id"
+        ],
+        [
+          "xpath///*[@id=\"voice_id\"]"
+        ],
+        [
+          "pierce/#voice_id"
+        ]
+      ],
+      "offsetY": 24,
+      "offsetX": 177.59375
+    },
+    {
+      "type": "change",
+      "value": "74",
+      "selectors": [
+        [
+          "#voice_id"
+        ],
+        [
+          "xpath///*[@id=\"voice_id\"]"
+        ],
+        [
+          "pierce/#voice_id"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        "aria/Save and Preview Your Video",
+        "#voice_submit_button",
+        "xpath///*[@id=\"voice_submit_button\"]",
+        "pierce/#voice_submit_button",
+        "text/Save and Preview"
+      ],
+      "offsetX": 129.59375,
+      "offsetY": 20,
+      "assertedEvents": [
+        {
+          "type": "navigation"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "desc": "kill time",
+      "timeout": 30000,
+      "target": "main",
+      "selectors": [
+        "aria/HELP",
+        "li.mr-3 > a",
+        "xpath///*[@id=\"top_navigation\"]/li[5]/a",
+        "pierce/li.mr-3 > a",
+        "text/HELP"
+      ],
+      "offsetX": 34.859375,
+      "offsetY": 34.5,
+      "duration": 29000
+    },
+    {
+      "type": "click",
+      "desc": "kill time",
+      "timeout": 30000,
+      "target": "main",
+      "selectors": [
+        "aria/HELP",
+        "li.mr-3 > a",
+        "xpath///*[@id=\"top_navigation\"]/li[5]/a",
+        "pierce/li.mr-3 > a",
+        "text/HELP"
+      ],
+      "offsetX": 34.859375,
+      "offsetY": 34.5,
+      "duration": 29000
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Looks Good Make Video"
+        ],
+        [
+          "div:nth-of-type(1) > a"
+        ],
+        [
+          "xpath///*[@id=\"content\"]/div/div/div/div[2]/div[1]/a"
+        ],
+        [
+          "pierce/div:nth-of-type(1) > a"
+        ],
+        [
+          "text/Looks Good Make"
+        ]
+      ],
+      "offsetY": 19.359375,
+      "offsetX": 119.09375,
+      "timeout": 30000,
+      "assertedEvents": [
+        {
+          "type": "navigation"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/1280 x 720 (720p)"
+        ],
+        [
+          "#rendering_resolution1"
+        ],
+        [
+          "xpath///*[@id=\"rendering_resolution1\"]"
+        ],
+        [
+          "pierce/#rendering_resolution1"
+        ]
+      ],
+      "offsetY": 5.203125,
+      "offsetX": 5.34375
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Render Video"
+        ],
+        [
+          "#wrapper button"
+        ],
+        [
+          "xpath///*[@id={}]/button"
+        ],
+        [
+          "pierce/#wrapper button"
+        ],
+        [
+          "text/Render Video"
+        ]
+      ],
+      "offsetY": 11,
+      "offsetX": 75.34375
+    },
+    {
+      "type": "click",
+      "desc": "kill time",
+      "timeout": 30000,
+      "target": "main",
+      "selectors": [
+        "aria/HELP",
+        "li.mr-3 > a",
+        "xpath///*[@id=\"top_navigation\"]/li[5]/a",
+        "pierce/li.mr-3 > a",
+        "text/HELP"
+      ],
+      "offsetX": 34.859375,
+      "offsetY": 34.5,
+      "duration": 29000
+    },
+    {
+      "type": "click",
+      "desc": "kill time",
+      "timeout": 30000,
+      "target": "main",
+      "selectors": [
+        "aria/HELP",
+        "li.mr-3 > a",
+        "xpath///*[@id=\"top_navigation\"]/li[5]/a",
+        "pierce/li.mr-3 > a",
+        "text/HELP"
+      ],
+      "offsetX": 34.859375,
+      "offsetY": 34.5,
+      "duration": 29000
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Download Video"
+        ],
+        [
+          "#content-wrapper a"
+        ],
+        [
+          "xpath///*[@id=\"content\"]/div/div/div/div[2]/a"
+        ],
+        [
+          "pierce/#content-wrapper a"
+        ],
+        [
+          "text/Download Video"
+        ]
+      ],
+      "offsetY": 13.578125,
+      "offsetX": 72.265625,
+      "timeout": 30000
+    }
+  ]
+}

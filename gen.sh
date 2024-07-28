@@ -1,11 +1,11 @@
-cat vidbot_unhighlight.json | jq '.steps' > tmp_steps.json
+cat vb_unhighlight.json | jq '.steps' > tmp_steps.json
 
 for i in {1..45}
 do
 jqArg="$jqArg tmp_steps.json"
 done
 
-cat ./vidbot_init_config.json | jq '.steps' | jq -s add - $jqArg > tmp.json
+cat ./vb_init_config.json | jq '.steps' | jq -s add - $jqArg > tmp.json
 
 cat << EOF > output.json
 {
