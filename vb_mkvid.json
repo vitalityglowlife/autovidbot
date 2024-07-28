@@ -458,25 +458,14 @@
       "type": "click",
       "target": "main",
       "selectors": [
-        [
-          "aria/Download Video"
-        ],
-        [
-          "#content-wrapper a"
-        ],
-        [
-          "xpath///*[@id=\"content\"]/div/div/div/div[2]/a"
-        ],
-        [
-          "pierce/#content-wrapper a"
-        ],
-        [
-          "text/Download Video"
-        ]
+        "aria/Download Video",
+        "#content-wrapper a",
+        "xpath///*[@id=\"content\"]/div/div/div/div[2]/a",
+        "pierce/#content-wrapper a",
+        "text/Download Video"
       ],
-      "offsetY": 13.578125,
       "offsetX": 72.265625,
-      "timeout": 30000
+      "offsetY": 16.078125
     }
   ]
 }
